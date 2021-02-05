@@ -30,21 +30,6 @@
         ".json"
       ],
       "subMetas": {
-        "40c10": {
-          "importer": "texture-cube-face",
-          "uuid": "5af201b5-5951-4e2c-a81f-ac4aad9132cb@b47c0@40c10",
-          "displayName": "",
-          "id": "40c10",
-          "name": "back",
-          "userData": {},
-          "ver": "1.0.0",
-          "imported": true,
-          "files": [
-            ".png",
-            ".json"
-          ],
-          "subMetas": {}
-        },
         "7d38f": {
           "importer": "texture-cube-face",
           "uuid": "5af201b5-5951-4e2c-a81f-ac4aad9132cb@b47c0@7d38f",
@@ -60,12 +45,12 @@
           ],
           "subMetas": {}
         },
-        "bb97f": {
+        "40c10": {
           "importer": "texture-cube-face",
-          "uuid": "5af201b5-5951-4e2c-a81f-ac4aad9132cb@b47c0@bb97f",
+          "uuid": "5af201b5-5951-4e2c-a81f-ac4aad9132cb@b47c0@40c10",
           "displayName": "",
-          "id": "bb97f",
-          "name": "top",
+          "id": "40c10",
+          "name": "back",
           "userData": {},
           "ver": "1.0.0",
           "imported": true,
@@ -90,12 +75,12 @@
           ],
           "subMetas": {}
         },
-        "74afd": {
+        "bb97f": {
           "importer": "texture-cube-face",
-          "uuid": "5af201b5-5951-4e2c-a81f-ac4aad9132cb@b47c0@74afd",
+          "uuid": "5af201b5-5951-4e2c-a81f-ac4aad9132cb@b47c0@bb97f",
           "displayName": "",
-          "id": "74afd",
-          "name": "right",
+          "id": "bb97f",
+          "name": "top",
           "userData": {},
           "ver": "1.0.0",
           "imported": true,
@@ -111,6 +96,21 @@
           "displayName": "",
           "id": "8fd34",
           "name": "left",
+          "userData": {},
+          "ver": "1.0.0",
+          "imported": true,
+          "files": [
+            ".png",
+            ".json"
+          ],
+          "subMetas": {}
+        },
+        "74afd": {
+          "importer": "texture-cube-face",
+          "uuid": "5af201b5-5951-4e2c-a81f-ac4aad9132cb@b47c0@74afd",
+          "displayName": "",
+          "id": "74afd",
+          "name": "right",
           "userData": {},
           "ver": "1.0.0",
           "imported": true,
