@@ -2114,7 +2114,7 @@
     },
     "_autoAdapt": true,
     "_pcf": 2,
-    "_bias": 0.0035,
+    "_bias": 0.0005,
     "_near": 0.1,
     "_far": 50,
     "_aspect": 1,
