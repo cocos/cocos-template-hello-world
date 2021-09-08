@@ -2114,10 +2114,12 @@
     },
     "_autoAdapt": true,
     "_pcf": 2,
-    "_bias": 0.0035,
+    "_bias": 0.000001,
     "_near": 0.1,
     "_far": 50,
     "_aspect": 1,
+    "_shadowDistance": 10,
+    "_invisibleOcclusionRange": 200,
     "_orthoSize": 10,
     "_maxReceived": 4,
     "_size": {
