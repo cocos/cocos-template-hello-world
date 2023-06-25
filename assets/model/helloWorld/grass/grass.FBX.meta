@@ -165,6 +165,6 @@
     "useVertexColors": true,
     "dumpMaterials": true,
     "materialDumpDir": "db://assets/model/helloWorld/grass",
-    "legacyFbxImporter": true
+  
   }
 }
