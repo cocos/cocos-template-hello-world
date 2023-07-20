@@ -104,6 +104,7 @@
       ]
     },
     "dumpMaterials": true,
-    "materialDumpDir": "db://assets/material"
+    "materialDumpDir": "db://assets/material",
+    "legacyFbxImporter": true
   }
 }
