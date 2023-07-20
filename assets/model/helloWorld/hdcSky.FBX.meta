@@ -1,5 +1,5 @@
 {
-  "ver": "2.0.10",
+  "ver": "2.3.8",
   "importer": "fbx",
   "imported": true,
   "uuid": "929e58ce-66a4-4e04-9036-4244456a1220",
@@ -11,7 +11,7 @@
       "displayName": "",
       "id": "f6832",
       "name": "hdcSky.mesh",
-      "ver": "1.1.0",
+      "ver": "1.1.1",
       "imported": true,
       "files": [
         ".bin",
@@ -19,7 +19,8 @@
       ],
       "subMetas": {},
       "userData": {
-        "gltfIndex": 0
+        "gltfIndex": 0,
+        "triangleCount": 960
       }
     },
     "7f40d": {
@@ -31,12 +32,15 @@
       "ver": "1.0.3",
       "imported": true,
       "files": [
-        ".png",
-        ".json"
+        ".json",
+        ".png"
       ],
       "subMetas": {},
       "userData": {
-        "gltfIndex": 0
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
       }
     },
     "d6067": {
@@ -45,7 +49,7 @@
       "displayName": "",
       "id": "d6067",
       "name": "hdcSky.texture",
-      "ver": "1.0.20",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -58,7 +62,7 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
         "imageUuidOrDatabaseUri": "929e58ce-66a4-4e04-9036-4244456a1220@7f40d"
       }
@@ -69,7 +73,7 @@
       "displayName": "",
       "id": "bfc57",
       "name": "hdcSky.prefab",
-      "ver": "1.0.12",
+      "ver": "1.0.14",
       "imported": true,
       "files": [
         ".json"
@@ -104,6 +108,29 @@
       ]
     },
     "dumpMaterials": true,
-    "materialDumpDir": "db://assets/material"
+    "materialDumpDir": "db://assets/material",
+    "fbx": {
+      "preferLocalTimeSpan": false,
+      "smartMaterialEnabled": false,
+      "matchMeshNames": false
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
   }
 }
